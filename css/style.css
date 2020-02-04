@@ -248,6 +248,22 @@ footer .row {
   position: relative;
 }
 
+footer .containerr {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+footer .containerr p {
+  margin: 0;
+}
+
+footer .containerr a {
+  margin: 0;
+  color: orange;
+}
+
 /*Media Querries*/
 @media screen and (max-width: 768px) {
   footer .copyright {

@@ -6,13 +6,12 @@ $font-body: 'Open Sans', sans-serif;
 $font-logo:  'Exo 2', sans-serif;
 
 
-$fontweight-bold: 600;
-
 $color-body: #777777;
 $color-black: #222222;
 $color-darkorange: #FF8C00;
 $color-white: #FFFFFF;
 
+$fontweight-bold: 600;
 
 
 /*Global*/
@@ -271,6 +270,21 @@ body {
     height:130px;
     position: relative;
   }
+
+  footer .containerr {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .containerr p {
+    margin: 0;
+    
+}
+
+footer .containerr a {
+    margin: 0;
+    color: orange;
+}
   
   
   /*Media Querries*/
